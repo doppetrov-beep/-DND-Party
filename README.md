@@ -43,4 +43,4 @@ https://supabase.com/dashboard/project/yxpkmbckediniyuomvbs/auth/providers
 
 ## Публикация
 
-GitHub Actions публикует ветку `main` на GitHub Pages. Если публикация недоступна, проверьте **Settings → Pages → Build and deployment → GitHub Actions**.
+GitHub Pages публикует сайт из ветки `main` в корне репозитория: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: main → Folder: /(root) → Save**. Для нового репозитория владелец должен один раз включить эту настройку; права GitHub-приложения не позволяют её активировать. Дополнительный GitHub Actions workflow не используется.
